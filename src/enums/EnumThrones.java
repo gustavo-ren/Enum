@@ -24,7 +24,8 @@ public enum EnumThrones {
     GREYJOY{
         @Override
         public void printWords(){System.out.println("We do not Sow");}
-    };
+    },
+    VARYS;
     
     public void printWords(){System.out.println("No words");}
 }

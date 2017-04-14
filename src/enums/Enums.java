@@ -15,7 +15,12 @@ public class Enums {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        EnumThrones thrones=EnumThrones.LANNISTER;
+        EnumThrones thrones=EnumThrones.VARYS;
+        EnumThrones thrones1=EnumThrones.BARATHEON;
+        EnumThrones thrones2=EnumThrones.TARGARYEN;
+        
+        thrones1.printWords();
+        thrones2.printWords();
         thrones.printWords();
     }
     
